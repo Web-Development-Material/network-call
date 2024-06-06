@@ -8,3 +8,9 @@ export interface UserListProps {
   name: string;
   email: string;
 }
+
+export interface RegisterFormValues {
+  username: string;
+  email: string;
+  password: string;
+}
